@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+import {GiClockwork} from 'react-icons/gi'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,7 +11,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        TAGUA WEPAGE IN PROGRES
+        <GiClockwork size={100} color='#05a081'></GiClockwork>
+        <h1 style={{color:'#05a081', fontWeight:'bold', fontSize:40}}>
+          TAGUA WEBPAGE IN PROGRES ...
+        </h1>
       </main>
     </div>
   )
